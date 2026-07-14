@@ -20,7 +20,7 @@ const productData = {
     description: "견체공학적 설계로 완성된 궁극의 아우터. 비, 바람, 눈 어떤 환경에서도 반려견의 체온을 완벽하게 유지합니다. 특수 개발된 마이크로 파이버 소재가 놀라운 가벼움과 완벽한 방수 능력을 동시에 제공합니다.",
     features: ["완벽한 방수 및 방풍", "우주복 수준의 보온재", "야간 반사 리플렉터", "세탁기 사용 가능"],
     price: "₩129,000",
-    image: "/images/hero_jacket.png"
+    image: `${import.meta.env.BASE_URL}images/hero_jacket.png`
   },
   harness: {
     title: "WUF Harness Pro",
@@ -28,7 +28,7 @@ const productData = {
     description: "반려견의 목과 가슴에 가해지는 압박을 제로에 가깝게 분산시킵니다. 초경량 항공기 소재 버클과 통기성이 뛰어난 3D 에어메쉬로 산책의 질이 완전히 달라집니다.",
     features: ["3D 입체 하중 분산", "초경량 알루미늄 버클", "피부 자극 없는 에어메쉬", "원터치 착용 시스템"],
     price: "₩89,000",
-    image: "/images/hero_harness.png"
+    image: `${import.meta.env.BASE_URL}images/hero_harness.png`
   },
   smarttag: {
     title: "WUF Smart Tag",
@@ -36,7 +36,7 @@ const productData = {
     description: "단순한 인식표의 한계를 넘었습니다. 정밀한 자이로 센서와 GPS가 활동량, 수면 패턴, 그리고 정확한 위치를 실시간으로 당신의 스마트폰에 전송합니다.",
     features: ["실시간 GPS 추적", "24시간 활동량 분석", "1년 지속 배터리", "IP68 완전 방수"],
     price: "₩69,000",
-    image: "/images/hero_smarttag.png"
+    image: `${import.meta.env.BASE_URL}images/hero_smarttag.png`
   }
 };
 
